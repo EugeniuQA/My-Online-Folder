@@ -1,0 +1,6 @@
+Feature: Urmarirea statutului comenzii
+Scenario 1: Utilizatorul vede pagina de urmarire a comenzii
+Given: Utilizatorul se afla pe pagina tuturor comenzilor
+When: Utilizatorul navigheaza pe pagina
+And: Utilizatorul apasa tasta "click"
+Then: Utilizatorul ar trebui sa fie redirectionat catre pagina de urmarire a comenzii
